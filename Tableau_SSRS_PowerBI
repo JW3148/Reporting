@@ -1,0 +1,46 @@
+Date Source
+
+Tableau
+-Data source and Dataset setting
+-can define dataset by query: Yes - new custom SQL
+-Support data modeling: No
+-support datatype change: Yes - user can modify at connect level
+-support un-pivot: Yes
+-can fetch directly from website: NO
+-filter: supported at connect level, i.e. filter before pulling in 
+-once daba pulled into reporting tool, then later operaion is by report server engine
+
+SSRS
+-Data source and Dataset setting
+-can define dataset by query: Yes
+-support data modelling： NO    - can be done in SSAS
+-support data type change: NO   - can be done in SSAS
+-support un-pivot: Yes
+-can fetch directly from website: NO
+-supported at connect level: fiter b4 pulling in
+-once daba pulled into reporting tool, then later operaion is by report server engine
+
+Power BI
+-Data source and Dataset setting -through power pivot Manage window
+-can define dataset by query: Yes - power query can fetch a lot of stuff incl website
+-support data modeling: Yes - allow user to define a data model(including relation between datasets, dimensional modeling)
+-support data type change: Yes - user can modify at connect level
+-support un-pivot: Yes
+-can fetch directly from website: NO
+-once daba pulled into reporting tool, then later operaion is by report server engine
+
+
+Hierachy
+
+Tableau
+- support
+
+
+drill down is made possible in SSRS by a)parameter's available value can be defined by a dataset b) dataset can be fitered by a parameter
+
+SSRS
+- not supported
+- but can be realized in SSAS
+
+PowerBI
+- support
