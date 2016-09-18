@@ -29,6 +29,50 @@ Power BI
 -can fetch directly from website: NO
 -once daba pulled into reporting tool, then later operaion is by report server engine
 
+-----------------------------------------------------------------
+Design Area
+
+Tableau
+  worksheet
+    marks
+      color
+      size
+      label
+      detail
+      tooltip
+    pages
+    filters
+  Dash board
+
+SSRS
+Design Tab and Preview Tab
+Toolbox
+  table
+  matrix
+  subreport
+  chart
+    useful properties
+      chart series-->CustomAttributes-->PointWidth
+      ToolTip--> Expression
+      ShowDataLabel-->data label property
+      Chart Area-->CustomInnerPlotPosition, CustomPosition
+      
+      
+    
+  gauge, indicator, databar,sparkline
+  Map
+Expression
+  e.g. ="Product Type: "+cstr(Fields!Product_Type.Value) +Environment.NewLine+ "Profit: "+cstr(Sum(Fields!Profit.Value))
+  
+  Chart Area = Inner plot + Axis
+
+PowerBI
+-worksheet
+
+
+Story
+
+Tableau Formating function is not strong
 
 Hierachy
 
