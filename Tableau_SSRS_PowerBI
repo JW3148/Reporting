@@ -35,15 +35,17 @@ Design Area
 Tableau
   worksheet
     marks
-      color
-      size
+      color --can drag dimension or measure
+      size  --ususally drag measure here, i.e. numerical value. this is like add a third axis
       label
-      detail
+      detail --specify aggragation level, granularity
       tooltip
     pages
     filters
+    SHOWME
   Dash board
     use as filter
+    filter at dashboard(apply to which worksheet, apply to)
 
 SSRS
 Design Tab and Preview Tab
