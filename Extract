@@ -1,0 +1,34 @@
+
+                         (Extract)                        (Calculation)
+Database(SQL server..)  ----------->   Rpt tool(Tableau)  -------------->  Report
+                                        .tde                                chart..
+                                        power pivot                        pivot table
+                              
+
+
+
+Tableau
+  Live
+  Extract
+  
+PowerBI
+  Extract(PowerPivot) by default
+  have option to refresh connection to database
+  have option to refresh connection data model
+  
+SSRS 
+  no extract
+  Live connect to source by default(Often have dedicated source server to host source data)
+  Delivery
+    cache: cache report with default parameter
+    snapshot
+  components 
+    Report server(has a url, processing core)
+    Report server database(stores metadata, compiled reports..)
+    Data source
+    Report manager(web portal)
+
+
+Trade-off
+Report Performance vs. Latency
+  Max Latency: Frequency of Extract from source
