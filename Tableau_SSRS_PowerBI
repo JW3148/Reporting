@@ -10,6 +10,7 @@ Tableau
 -filter: supported at connect level, i.e. filter before pulling in 
 -once daba pulled into reporting tool, then later operaion is by report server engine
 
+
 SSRS
 -Data source and Dataset setting
 -can define dataset by query: Yes
@@ -91,3 +92,11 @@ SSRS
 
 PowerBI
 - support
+
+
+new feature
+Tableau
+  data interpreter
+  pivot
+  split
+  data blending
