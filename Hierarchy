@@ -1,0 +1,23 @@
+What is the use of hierarchy?
+A hint to reporting tool
+
+it will improve the performance of aggregation
+  e.g. year, quarter, month. 
+    if you know the sales for different quarters, and you want to know the sales at year level,
+    naturally, you will aggregtion the quarters for each year to get the year level data,
+    rather than aggragate from the month or day level
+    
+    This is humen knowledge, however, computer doesn't know, in order to tell computer it can do something like this
+    you need to explicite define hierarchies
+    
+Attribute Relationship - Flexible vs Rigid
+  e.g. two attribute Department and group. Department is formed by group. say Actural Dev support changed to IT from Actuarial
+  before the change, IT has ADS, after, it's gone. This is a change in Hierarchy. In this case, we say the attribute relationship is
+  flexible
+  e.g. to determine f or r, ask the question, for a particular product category, if the product it contains gonna change? is it possible any new
+  prod adding into this category? is it possible a product under this category being classifed as another category later?
+  if yes, then flexible
+  
+  
+In SSAS, when you define a hierarchy, it is recommended that you also define Attribute relationship
+This affect cute processing, Rigid h is not processed. Since the h is not gonna change
