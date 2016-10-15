@@ -1,0 +1,9 @@
+Tableau
+
+Profit_Margin= sum(Profit) / sum(Sales)
+
+Action
+  filter
+  highlight
+  url
+  
